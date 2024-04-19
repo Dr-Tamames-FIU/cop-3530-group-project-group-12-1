@@ -66,57 +66,57 @@ public class CarManager {
 
     System.out.println("Add vehicle");
 
-    System.out.println("Enter Make (Blank to return to Car Manager Menu): ");
+    System.out.println("Enter Make (Blank to cancel): ");
 
     String make = scanner.nextLine();
     if (make.equals("")) {
-      carManagerMenu(); // Returns to Car Manager Menu if nothing is typed.
+      return; // Returns to Main Menu if nothing is typed.
     }
 
-    System.out.println("Enter Model (Blank to return to Car Manager Menu): ");
+    System.out.println("Enter Model (Blank to cancel): ");
 
     String model = scanner.nextLine();
     if (model.equals("")) {
-      carManagerMenu(); // Returns to Car Manager Menu if nothing is typed.
+      return; // Returns to Main Menu if nothing is typed.
     }
 
-    System.out.println("Enter Year (Enter '-1' to return to Car Manager Menu): ");
+    System.out.println("Enter Year (Enter '-1' to cancel): ");
 
     int year = scanner.nextInt();
     if (year == -1) {
-      carManagerMenu(); // Returns to Car Manager Menu if -1 is typed.
+      return; // Returns to Main Menu if -1 is typed.
     }
 
     scanner.nextLine();
 
-    System.out.println("Enter Color (Blank to return to Car Manager Menu): ");
+    System.out.println("Enter Color (Blank to cancel): ");
 
     String color = scanner.nextLine();
     if (color.equals("")) {
-      carManagerMenu(); // Returns to Car Manager Menu if nothing is typed.
+      return; // Returns to Main Menu if nothing is typed.
     }
 
-    System.out.println("Enter Mileage (Enter '-1' to return to Car Manager Menu): ");
+    System.out.println("Enter Mileage (Enter '-1' to cancel): ");
 
     int mileage = scanner.nextInt();
     if (mileage == -1) {
-      carManagerMenu(); // Returns to Car Manager Menu if nothing is typed.
+      return; // Returns to Main Menu if nothing is typed.
     }
     scanner.nextLine();
 
-    System.out.println("Enter Price (Enter '-1' to return to Car Manager Menu): ");
+    System.out.println("Enter Price (Enter '-1' to cancel): ");
 
     int price = scanner.nextInt();
     if (price == -1) {
-      carManagerMenu(); // Returns to Car Manager Menu if -1 is typed.
+      return; // Returns to Main Menu if -1 is typed.
     }
     scanner.nextLine();
 
-    System.out.println("Enter Vehicle ID (Enter '-1' to return to Car Manager Menu): ");
+    System.out.println("Enter Vehicle ID (Enter '-1' to cancel): ");
 
     int id = scanner.nextInt();
     if (id == -1) {
-      carManagerMenu(); // Returns to Car Manager Menu if nothing is typed.
+      return; // Returns to Main Menu if nothing is typed.
     }
     CarDatabase newCar = new CarDatabase(make, model, year, color, mileage, price, id); // Car is added to arraylist.
     CarList.add(newCar);
