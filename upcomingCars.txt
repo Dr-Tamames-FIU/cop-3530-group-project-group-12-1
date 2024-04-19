@@ -1,0 +1,6 @@
+Make: Hyundai | Model: Santa Fe | Year: 2024 | Color: black | Arrival Date: 05-01-2024 | Price: 33950 | ID: 701
+Make: Nissan | Model: Versa | Year: 2024 | Color: silver | Arrival Date: 05-05-2024 | Price: 16690 | ID: 702
+Make: Nissan | Model: Sentra | Year: 2024 | Color: black | Arrival Date: 05-10-2024 | Price: 21180 | ID: 703
+Make: Honda | Model: Civic | Year: 2024 | Color: red | Arrival Date: 05-20-2024 | Price: 23950 | ID: 704
+Make: Lexus | Model: GX | Year: 2024 | Color: black | Arrival Date: 06-01-2024 | Price: 62900 | ID: 705
+Make: Mercedes Benz | Model: EQE Sedan | Year: 2024 | Color: silver | Arrival Date: 06-15-2024 | Price: 74900 | ID: 706

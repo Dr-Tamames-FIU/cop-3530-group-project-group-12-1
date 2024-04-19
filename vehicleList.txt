@@ -1,0 +1,11 @@
+Make: Ford | Model: F150 | Year: 2025 | Color: Black | Mileage: 0 | Price: 32999 | ID: 555
+Make: Ford | Model: Mustang | Year: 2025 | Color: Yellow | Mileage: 0 | Price: 34750 | ID: 522
+Make: Honda | Model: Civic | Year: 2023 | Color: Red | Mileage: 19000 | Price: 23500 | ID: 445
+Make: Honda | Model: Accord | Year: 2023 | Color: Red | Mileage: 16650 | Price: 21230 | ID: 489
+Make: Mercedes Benz | Model: AMG GT | Year: 2024 | Color: Black | Mileage: 3000 | Price: 95750 | ID: 562
+Make: Mercedes Benz | Model: SL Roadster | Year: 2024 | Color: Silver | Mileage: 0 | Price: 109900 | ID: 563
+Make: Dodge | Model: Charger | Year: 2023 | Color: Blue | Mileage: 28000 | Price: 32450 | ID: 106
+Make: Dodge | Model: Challenger | Year: 2023 | Color: Red | Mileage: 24566 | Price: 33750 | ID: 109
+Make: Nissan | Model: Sentra SR | Year: 2024 | Color: Gray | Mileage: 2500 | Price: 24552 | ID: 323
+Make: Nissan | Model: Altima SR | Year: 2024 | Color: Light Blue | Mileage: 2000 | Price: 26370 | ID: 324
+Make: Nissan | Model: Maxima | Year: 2024 | Color: Light Green | Mileage: 0 | Price: 28999 | ID: 657
